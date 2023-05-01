@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 1200px;
+  width: 100%;
+  background-color: aquamarine;
+}
+.container {
+  display: grid;
+  grid-template-rows: 2fr 2fr 1.5fr;
+  margin: 20% 20%;
+  padding: 20px 16px;
+}
+.container h1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+
+#span {
+  font-size: 48px;
+  padding-left: 120px;
+}
+.btn {
+  display: inline;
+  align-self: center;
+  justify-content: space-between;
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #808000;
+  font-style: italic;
+}
